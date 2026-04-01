@@ -10,7 +10,7 @@
 //
 // ? SEE DIAGRAM: cpp_diagrams.md #1 -- Steps 1a, 1b, 1c (Count Phase)
 // ? SEE DIAGRAM: cpp_diagrams.md #2 -- Step 2 (Placement Phase)
-//
+
 void counting_sort(std::vector<int>& data) {
     // TODO: Implement counting sort
     if (data.size() <= 1) return;
